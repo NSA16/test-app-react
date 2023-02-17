@@ -1,0 +1,104 @@
+.App {
+  margin-top: 100px;
+  text-align: left;
+  padding: 20px;
+}
+
+.View {
+  padding-bottom: 10px;
+  margin-top: 70px;
+  box-shadow: 0 20px 10px 10px #737373;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: blue;
+  color: white;
+  padding: 13px;
+  margin-left: 20px;
+}
+
+.Marites {
+  margin: 20px 20px;
+  width: 40%;
+
+
+}
+
+.Tolits {
+  display: inline;
+  padding: 0 15px;
+}
+
+.buttonSuccess {
+  background-color: lightgreen;
+  width: 100px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttonFailed {
+  background-color: red;
+  width: 100px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttonUpcoming {
+  background-color: yellow;
+  width: 100px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Title {
+  display: inline;
+  padding: 0 15px;
+}
+
+.Footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/*
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+*/
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
